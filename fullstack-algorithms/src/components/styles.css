@@ -1,0 +1,126 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b3a; 
+    color: #e6e6fa; 
+}
+
+header {
+    background-color: #4b0082; 
+    color: #e6e6fa;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #9370db; 
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #9370db;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #dda0dd; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #9370db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #dda0dd;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #9370db;
+    background-color: #2f2f4f; 
+    color: #e6e6fa;
+}
+
+
+.bio-box {
+    margin: 20px;
+    padding: 20px;
+    background-color: #2f2f4f;
+    border: 2px solid #4b0082;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(147, 112, 219, 0.7); 
+    color: #e6e6fa;
+    font-size: 1.2em;
+}
+
+.image-box {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #2f2f4f; 
+    border: 2px solid #4b0082; 
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(147, 112, 219, 0.7); 
+    max-width: 500px;
+    text-align: center; 
+}
+
+.image-box img {
+    width: 100%;
+    border-radius: 8px; 
+}
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    padding: 20px; 
+}
+
+
+.movie-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .movie-item {
+    margin: 20px;
+    text-align: center;
+    background-color: #666464; 
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-image {
+    width: 150px; 
+    height: auto;
+    border: 1px solid #787878; 
+    border-radius: 8px;
+  }
+
