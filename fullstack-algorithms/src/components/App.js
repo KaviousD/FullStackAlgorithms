@@ -11,6 +11,7 @@ function App() {
     <Router>
       <div>
         <Routes>
+          <Route path="/" element={<Splash />} />
           <Route path="/splash" element={<Splash />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
